@@ -1,0 +1,403 @@
+*{
+    padding: 0px;
+    margin: 0xp;   
+} 
+body {
+	background-color: transparent;     
+}
+
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    overflow: hidden;
+    z-index: -100;
+}
+ .fullscreen-video {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: 100%;
+    height: auto;
+  }
+}
+ 
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-video { 
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+.menu-web-top {
+    width: 100%;
+    height: 65px;  
+    padding:20px; 
+    background-color: #2c3e50; 
+    position: fixed;
+   
+    
+
+}
+
+.li-menu {
+    color: #ecf0f1;
+    font-size: 19px;  
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+       
+}
+
+
+.lk{
+   color: white;
+    text-decoration: none;
+    transition: 0.5s;
+   
+}
+
+
+
+.login-form{ 
+	margin:4% auto 0;
+	max-width:440px;
+    
+    
+}
+
+.logo {
+    
+    width: 70px; 
+    height: 40px;
+}
+
+.section-info-global { 
+    margin: 0 auto; 
+    width: 80%;
+    height: auto; 
+    padding: 20px;
+    text-align: center;
+   
+    
+}
+
+.title-uno {
+    font-size: 40px;
+   
+} 
+
+.parrafo-dos {
+    font-size: 25px; 
+} 
+
+
+.h3 {
+  font-family: "aclonica";
+  font-size; 120px;
+  color: orange;
+}
+
+
+.info-index {
+    width: 90%;
+    height: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    justify-content: center;
+
+}
+
+.info {
+    
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    background: transparent;
+    margin: 10px;
+     overflow: hidden;
+    
+}
+
+.gif-index { 
+    width: 500px; 
+    margin-left: 100px; 
+    margin-top: -100px;
+    overflow: hidden; 
+    border-radius: 3px; 
+} 
+
+.index-text-der {
+     color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr, .hrcolor {
+   height: 1px;
+   border: 0;
+   color: #2c3e50;
+   background-color: #2c3e50;
+}
+
+.prubagratis {
+    font-size: 30px;
+    color: black;
+    width: 400px;
+}
+
+.pru-gras {
+    
+      font-size: 30px;
+    color: white;
+    background: #2c3e50;
+    width: 400px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+
+/*------------------------------------------*/
+
+.login-form h1{
+	font-size: 30pt;
+	font-weight: 700;
+    letter-spacing: -1px;
+    font-style: oblique;
+} 
+
+.form-header,.form-footer{
+	background-color: transparent;
+  	
+}
+
+.form-signin{
+	padding: 45px 35px 45px;
+  	background-color: transparent;
+  	border: 1px solid rgba(0,0,0,0.1);  
+  	border-bottom: 0px; 
+  	border-top: 0px;  
+}
+
+.form-register{
+	padding: 45px 35px 45px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0,0,0,0.1);  
+  	border-bottom: 0px; 
+  	border-top: 0px; 
+}
+
+.form-header{
+	text-align: center;
+	padding: 15px 40px;
+	border-radius: 10px 10px 0 0;
+}
+.form-header i{font-size:60px;}
+.form-footer {
+	padding: 15px 40px;	
+}
+.form-signin-heading{
+	margin-bottom: 30px;
+}
+.bt-login{
+	background-color: #3498db;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+}
+.form-signin .form-control, .form-register .form-control{
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus, .form-register .form-control:focus {
+  z-index: 2;
+}
+.form-register input{
+	border: 1px solid #ddd; 
+    border-radius: 0;
+    color: #333;
+    height: 43px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} 
+i{margin-right: 4%;}
+a{text-decoration: none;color:#333;}
+
+.has-error{color:#ff0000 !important;}
+.has-success{color:#78b310 !important;}
+.has-error input{border:1px solid red !important;}
+.has-success input{border:1px solid #78b310 !important;}
+
+.message_success{background-color: #78b310; color:#fff;padding: 5px;}
+.message_error{background-color: #e74c3c; color:#fff;padding: 5px;}
+h1{font-family: Pacifico;}
+
+
+.contenedor-bottom-pelis {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin:50px auto;
+   display: block;
+    
+     
+}
+
+.into-bottom-pelis { 
+    width: 250px;
+    height: 400px;
+    background: blue; 
+    margin: 10px;
+    justify-content: center; 
+    display: inline-flex; 
+    border:solid 2px white;
+    transition: 0.1s;
+    cursor: pointer; 
+    
+     
+}
+
+.into-bottom-pelis:hover { 
+    border:solid 2px gray; 
+    padding: 100px; 
+}
+
+
+#estreno1 { 
+    background-image: url(../images/estreno1.jpg);
+    background-size: 100%;
+}
+
+
+#estreno2 {
+    background-image: url(../images/estreno1.jpg);
+    background-size: 100%;
+}
+
+
+#estreno3 {
+    background-image: url(../images/estreno1.jpg);
+    background-size: 100%;  
+} 
+
+.foolter {  
+    
+    width: 100%;
+    height:auto; 
+    text-align: center;  
+    color: white;
+    background: #1a1a1a;
+    padding: 12px; 
+}
+
+.hd-top {
+     width: 100%;
+    height:auto;
+    text-align: center;
+    color: white;
+    background: #1a1a1a; 
+    padding: 12px;
+}
+
+
+
+@media screen and (max-width:640px) {
+ .into-bottom-pelis { 
+    width: 40%;
+     height: 200px;
+    background: blue;
+    margin: 10px;
+    justify-content: center; 
+    display: inline-flex; 
+    border:solid 2px white;
+    transition: 0.1s;
+    cursor: pointer;
+    
+     
+}
+    
+
+    
+    
+    .info {
+    width: 300px;
+    display: block;
+        float: inherit;
+        background: rd;
+        color: white;
+    
+}
+    
+    .index-text-der {
+     color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+    
+    .prubagratis {
+    font-size: 30px;
+    color: white;
+    width: 400px;
+}
+    
+    .gif-index { 
+    width: 500px; 
+    margin-left: -100px; 
+    margin-top: -100px;
+    overflow: hidden; 
+    border-radius: 3px; 
+} 
+    
+    
+    .menu-web-top {
+    width: 100%;
+    height: 100px;  
+    padding:20px; 
+    background-color: #2c3e50;
+    
+        
+        
+        
+        
+   
+    
+
+}
+}

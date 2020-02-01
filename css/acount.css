@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;   
+}  
+
+  body { 
+	background:white;  
+      text-align: center;
+      
+}  
+
+.form-group {
+    font-size: 20px;
+    margin: 10px;
+}
+
+input {
+    padding: 5px;
+   color: white;
+}
+
+
+
+
