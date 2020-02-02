@@ -6,7 +6,7 @@
     "homepage": "https://github.com/R4v3n15/dresser_help",
     "license": "MIT",
     "require-dev": {
-        "php": ">=7.0.0",
+        "php": ">=5.5.0",
         "phpunit/phpunit": "4.8.*|5.7.*"
     },
     "autoload": {
