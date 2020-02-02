@@ -7,8 +7,13 @@ class LoginController {
 	}
 
 	public function signup(){
-		$query = $this->connect()->query('SELECT * FROM pelicula');
-		return $query;
+		$username   = strip_tags(Request::post('username'));
+        $name       = strip_tags(Request::post('name'));
+        $email      = strip_tags(Request::post('email'));
+        $password   = strip_tags(Request::post('password'));
+		$repassword = strip_tags(Request::post('repassword'));
+		
+		Helpers::renderJSON(UserModel::registerNewUser($username, $password, $repassword, $name, $email));
 	}
 }
 
